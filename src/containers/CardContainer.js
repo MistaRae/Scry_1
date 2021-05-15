@@ -20,15 +20,19 @@ const CardContainer = () => {
     }
 
     const handleButtonClick = () => {
-        // fetchRandomCard()
+        fetchRandomCard()
     }
  
     return (
         <div>
             <Header/>
-            { currentCard ? <p>Loading ...</p> : <CardInfo currentCard = {currentCard}/> }
-            { currentCard ? <p>Loading ...</p> : <Card currentCard = {currentCard}/> }
-            <ScryButton handleButtonClick = {handleButtonClick}/>
+            <div>
+            { currentCard ? <CardInfo currentCard = {currentCard}/> : <p>Loading ...</p> }
+                <aside>
+                { currentCard ? <Card currentCard = {currentCard}/> : <p>Loading ...</p> }
+                <ScryButton handleButtonClick = {handleButtonClick}/>
+                </aside>
+            </div>
         </div>
     )
 }

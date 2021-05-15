@@ -1,0 +1,28 @@
+#card-container  { 
+  display: block;
+  /* margin-left: 20px;
+  margin-right: auto; */
+  max-width: 488px;
+  max-height: 680px; 
+  object-fit: contain;
+  border: 1px solid red;
+}
+
+#card-image {
+  object-position: 0%;
+  max-width: 100%;
+  max-height: auto;
+}
+
+#oracle-text {
+  max-width: 20%;
+  padding-right: 20px;
+}
+
+body > div > div > div {
+  margin-left: 20px;
+}
+
+body > div > div > div > div {
+display:flex
+}

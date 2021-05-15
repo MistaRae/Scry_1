@@ -4,7 +4,7 @@ const Card = ({currentCard}) => {
 
     return (
         <div id = "card-container">
-            <img src={currentCard.image_uris.normal} alt="card" />
+            <img id = "card-image" src={currentCard.image_uris.normal} alt="card" />
         </div>
         
     
