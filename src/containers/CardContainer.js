@@ -4,6 +4,7 @@ import Card from '../components/Card'
 import { useEffect } from 'react'
 import ScryButton from '../components/ScryButton'
 import CardInfo from '../components/CardInfo'
+import Footer from '../components/Footer'
 
 const CardContainer = () => {
 
@@ -33,6 +34,7 @@ const CardContainer = () => {
                 <ScryButton handleButtonClick = {handleButtonClick}/>
                 </aside>
             </div>
+            <Footer/>
         </div>
     )
 }

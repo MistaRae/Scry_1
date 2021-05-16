@@ -2,21 +2,30 @@
   display: block;
   /* margin-left: 20px;
   margin-right: auto; */
-  max-width: 488px;
-  max-height: 680px; 
+  /* max-width: 488px;
+  max-height: 680px;  */
+  max-width: 350px;
+  max-height: auto; 
   object-fit: contain;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  margin-top: 0px;
+
 }
 
 #card-image {
   object-position: 0%;
   max-width: 100%;
   max-height: auto;
+  border-radius: 15px;
 }
 
 #oracle-text {
-  max-width: 20%;
-  padding-right: 20px;
+  margin-left: 210px;
+  max-width: 30%;
+  min-width: 20%;
+  padding-right: 40px;
+  /* background-image: src= 'https://www.pngix.com/pngfile/big/342-3428308_carta-de-planeswalker-teferi-hero-of-dominaria-png.png'; */
+
 }
 
 body > div > div > div {
@@ -25,4 +34,34 @@ body > div > div > div {
 
 body > div > div > div > div {
 display:flex
+}
+
+#header-container { 
+  max-width: 98.5%;
+  margin-bottom: 20px;
+}
+
+#header-image {
+  object-fit: contain;
+  max-width: 50%;
+  max-height: auto;
+  clip-path: polygon(0% 20%, 100% 20%, 100% 70%, 0% 70%);
+
+}
+
+#scry-button {
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 140px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-justify:inter-cluster;
+}
+
+#footer-image {
+  max-width: 98.5%;
 }
